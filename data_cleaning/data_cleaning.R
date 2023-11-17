@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 library(tidyverse)
 library(rvest)
 
@@ -79,4 +78,17 @@ df_items <- df_madefrome |>
 # Sunday lunch recipe
 #roast chicken 
 
+library(shiny)
+library(shinycssloaders)
+library(shinydashboard)
+library(shinythemes)
 
+ui <- fluidPage(
+  
+)
+
+server <- function(input, output, session) {
+  
+}
+
+shinyApp(ui, server)
